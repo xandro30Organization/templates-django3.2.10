@@ -1,0 +1,15 @@
+# ENVIRONMENT
+export PIP_REQUIREMENTS="<requirements file>"
+export DJANGO_SETTINGS_MODULE="<settings source object notation>"
+export SETTINGS_SOURCE_TYPE="ENVIRONMENT"
+
+# SETTINGS
+export DJANGO_SECRET_KEY="<change-this-to-50-characters-long-random-string>"
+
+# DATABASE
+export DATABASE_ENGINE="<django db engine>"
+export DATABASE_NAME="<database name>"
+export DATABASE_USER="<database user>"
+export DATABASE_PASSWORD="<database password>"
+export DATABASE_HOST="<service docker name or ip>"
+export DATABASE_PORT=<port>

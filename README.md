@@ -1,0 +1,1 @@
+# Template to start a project with django 3.2.10
